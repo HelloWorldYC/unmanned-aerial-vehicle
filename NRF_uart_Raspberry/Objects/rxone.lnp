@@ -1,0 +1,9 @@
+--cpu Cortex-M0
+".\objects\rxone.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\nrf_gpio.o"
+".\objects\radio_config.o"
+--strict --scatter ".\Objects\rxone.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\rxone.map" -o .\Objects\rxone.axf

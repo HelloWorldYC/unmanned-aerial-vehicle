@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\objects\txone.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\nrf_gpio.o"
+".\objects\project_nrf51822.o"
+".\objects\system_nrf51.o"
+".\objects\radio_config.o"
+".\objects\nrf_delay.o"
+--library_type=microlib --strict --scatter ".\Objects\txone.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\txone.map" -o .\Objects\txone.axf

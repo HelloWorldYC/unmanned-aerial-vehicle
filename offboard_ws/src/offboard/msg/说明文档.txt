@@ -1,0 +1,2 @@
+information_collection_case.msg是自定义的消息类型文件，用来在控制节点和串口节点之间发布和订阅信息收集数据；
+LLA.msg是自定义的GPS类型数据（latitude、longitude、altitude），用来在程序中处理相关数据时不用定义多个变量。

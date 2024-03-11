@@ -1,0 +1,3 @@
+GPS.txt文件是用来存放目标点的GPS坐标；
+GPS_local_node.cpp文件是控制节点文件，用来控制无人机的飞行；
+read_serial_node.cpp文件是串口节点文件，用来进行串口数据传输以及对传输过来的ADC值进行处理。

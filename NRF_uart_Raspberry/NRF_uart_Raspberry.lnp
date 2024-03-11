@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\arm_startup_nrf51.o"
+".\nrf_delay.o"
+".\radio_config.o"
+".\nrf_gpio.o"
+".\simple_uart.o"
+".\nrf_uart_raspberry.o"
+--strict --scatter ".\NRF_uart_Raspberry.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\NRF_uart_Raspberry.map" -o .\NRF_uart_Raspberry.axf

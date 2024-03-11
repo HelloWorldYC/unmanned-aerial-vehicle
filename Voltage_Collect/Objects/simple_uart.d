@@ -1,0 +1,16 @@
+.\objects\simple_uart.o: project_nrf51\Basic\Include_C\simple_uart\simple_uart.c
+.\objects\simple_uart.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\nrf.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\compiler_abstraction.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\nrf51.h
+.\objects\simple_uart.o: .\project_nrf51\Peripherals\gcc\core_cm0.h
+.\objects\simple_uart.o: .\project_nrf51\Peripherals\gcc\core_cmInstr.h
+.\objects\simple_uart.o: .\project_nrf51\Peripherals\gcc\core_cmFunc.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\system_nrf51.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+.\objects\simple_uart.o: .\project_nrf51\Peripherals\gcc\core_cm0.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\nrf51_deprecated.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\simple_uart.h
+.\objects\simple_uart.o: E:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\nrf_delay.h
+.\objects\simple_uart.o: .\project_nrf51\Basic\Include_H\nrf_gpio.h

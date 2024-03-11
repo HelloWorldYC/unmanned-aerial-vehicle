@@ -1,0 +1,11 @@
+Include文件夹和project_nrf51文件夹是程序中需要包含的头文件；
+Listings文件夹是生成工程时有的，不知道其用处；
+Objects文件夹是编译生成的对象文件；
+
+本工程是与树莓派连接的NRF板的程序，负责接收地面NRF板数据并通过串口发送给树莓派；
+打开工程，NRF_uart_Raspberry.c文件是该工程的主文件；
+与地面NRF板的通信是通过RADIO无线通信的，相关设置在radio_config.c文件中；
+要使用串口发送数据给树莓派，使用UART串口通信，相关设置在simple_uart.c文件中；
+NRF板的GPIO口相关设置在nrf_gpio.c文件中；
+延时函数在nrf_delay.c文件中；
+其余文件为该工程运行时所需的头文件或者头文件的C文件。

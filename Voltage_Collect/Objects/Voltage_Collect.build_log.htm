@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: M YC, MYC, LIC=SDAPC-70DJJ-SYQVA-1GYX5-EXBR9-M7UG0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  E:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\Voltage_Collect.uvprojx
+Project File Date:  04/13/2021
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling Voltage_Collect.c...
+.\project_nrf51\Basic\Include_H\usbjtag.H(8): warning:  #47-D: incompatible redefinition of macro "HWFC" (declared at line 31 of ".\project_nrf51\Peripherals\boards\pca10001.h")
+  #define HWFC           true
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+.\project_nrf51\Peripherals\boards\pca1000x.h(23): warning:  #47-D: incompatible redefinition of macro "LED_STOP" (declared at line 17 of ".\project_nrf51\Peripherals\boards\pca10001.h")
+  #define LED_STOP       22
+.\project_nrf51\Peripherals\boards\pca1000x.h(41): warning:  #47-D: incompatible redefinition of macro "HWFC" (declared at line 8 of ".\project_nrf51\Basic\Include_H\usbjtag.H")
+  #define HWFC           0
+.\ADC\ADC.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+Voltage_Collect.c(143): warning:  #223-D: function "radio_configure" declared implicitly
+        radio_configure();//无线电配置（也可用于和nrf2401通讯）
+Voltage_Collect.c(170): warning:  #1-D: last line of file ends without a newline
+  }
+Voltage_Collect.c: 7 warnings, 0 errors
+compiling project_nrf51822.c...
+.\project_nrf51\Basic\Include_H\usbjtag.H(8): warning:  #47-D: incompatible redefinition of macro "HWFC" (declared at line 31 of ".\project_nrf51\Peripherals\boards\pca10001.h")
+  #define HWFC           true
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+project_nrf51\Basic\startup\project_nrf51822.c: 2 warnings, 0 errors
+compiling system_nrf51.c...
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+project_nrf51\Basic\startup\system_nrf51.c: 1 warning, 0 errors
+assembling arm_startup_nrf51.s...
+compiling ADC.c...
+.\project_nrf51\Basic\Include_H\usbjtag.H(8): warning:  #47-D: incompatible redefinition of macro "HWFC" (declared at line 31 of ".\project_nrf51\Peripherals\boards\pca10001.h")
+  #define HWFC           true
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+ADC\ADC.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+ADC\ADC.c(60): warning:  #1-D: last line of file ends without a newline
+  }
+ADC\ADC.c: 4 warnings, 0 errors
+compiling nrf_gpio.c...
+compiling nrf_delay.c...
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c: 1 warning, 0 errors
+compiling simple_uart.c...
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+project_nrf51\Basic\Include_C\simple_uart\simple_uart.c: 1 warning, 0 errors
+compiling radio_config.c...
+project_nrf51\Basic\Include_C\nrf_radio\radio_config.c(77): warning:  #177-D: function "bytewise_bitswap" was declared but never referenced
+  static uint32_t bytewise_bitswap(uint32_t inp)
+project_nrf51\Basic\Include_C\nrf_radio\radio_config.c: 1 warning, 0 errors
+linking...
+Program Size: Code=1684 RO-data=224 RW-data=12 ZI-data=4196  
+FromELF: creating hex file...
+".\Objects\Voltage_Collect.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE
+  E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

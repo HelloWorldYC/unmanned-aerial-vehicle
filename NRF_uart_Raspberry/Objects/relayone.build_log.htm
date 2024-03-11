@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: asd asd, asd, LIC=FYK12-9E46A-Y8HFK-Z288D-N20WG-Z0L7C
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  E:\KEIL\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+F:\Project\nrfone\relayone.uvprojx
+Project File Date:  07/27/2019
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling relayone.c...
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+relayone.c(144): warning:  #223-D: function "radio_configure" declared implicitly
+          radio_configure();//无线电配置（也可用于和nrf2401通讯）
+relayone.c: 2 warnings, 0 errors
+assembling arm_startup_nrf51.s...
+compiling nrf_gpio.c...
+compiling nrf_delay.c...
+.\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c: 1 warning, 0 errors
+compiling radio_config.c...
+project_nrf51\Basic\Include_C\nrf_radio\radio_config.c(77): warning:  #177-D: function "bytewise_bitswap" was declared but never referenced
+  static uint32_t bytewise_bitswap(uint32_t inp)
+project_nrf51\Basic\Include_C\nrf_radio\radio_config.c: 1 warning, 0 errors
+linking...
+Program Size: Code=1108 RO-data=224 RW-data=4 ZI-data=4196  
+FromELF: creating hex file...
+".\Objects\relayone.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\Project\nrfone\RTE
+  E:\KEIL\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

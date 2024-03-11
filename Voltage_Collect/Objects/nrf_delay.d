@@ -1,0 +1,14 @@
+.\objects\nrf_delay.o: project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c
+.\objects\nrf_delay.o: E:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\nrf_delay.o: .\project_nrf51\Basic\Include_H\compiler_abstraction.h
+.\objects\nrf_delay.o: .\project_nrf51\Basic\Include_H\nrf.h
+.\objects\nrf_delay.o: .\project_nrf51\Basic\Include_H\nrf51.h
+.\objects\nrf_delay.o: .\project_nrf51\Peripherals\gcc\core_cm0.h
+.\objects\nrf_delay.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nrf_delay.o: .\project_nrf51\Peripherals\gcc\core_cmInstr.h
+.\objects\nrf_delay.o: .\project_nrf51\Peripherals\gcc\core_cmFunc.h
+.\objects\nrf_delay.o: .\project_nrf51\Basic\Include_H\system_nrf51.h
+.\objects\nrf_delay.o: .\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+.\objects\nrf_delay.o: .\project_nrf51\Peripherals\gcc\core_cm0.h
+.\objects\nrf_delay.o: .\project_nrf51\Basic\Include_H\nrf51_deprecated.h
+.\objects\nrf_delay.o: project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.h

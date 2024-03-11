@@ -1,0 +1,10 @@
+.\objects\nrf_gpio.o: project_nrf51\Basic\Include_C\nrf_gpio.c
+.\objects\nrf_gpio.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nrf_gpio.o: .\project_nrf51\Basic\Include_H\nrf51.h
+.\objects\nrf_gpio.o: .\project_nrf51\Peripherals\gcc\core_cm0.h
+.\objects\nrf_gpio.o: .\project_nrf51\Peripherals\gcc\core_cmInstr.h
+.\objects\nrf_gpio.o: .\project_nrf51\Peripherals\gcc\core_cmFunc.h
+.\objects\nrf_gpio.o: .\project_nrf51\Basic\Include_H\system_nrf51.h
+.\objects\nrf_gpio.o: .\project_nrf51\Basic\Include_H\nrf_gpio.h
+.\objects\nrf_gpio.o: .\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+.\objects\nrf_gpio.o: .\project_nrf51\Peripherals\gcc\core_cm0.h

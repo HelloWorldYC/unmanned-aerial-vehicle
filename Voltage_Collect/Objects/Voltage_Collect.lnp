@@ -1,0 +1,14 @@
+--cpu Cortex-M0
+".\objects\voltage_collect.o"
+".\objects\project_nrf51822.o"
+".\objects\system_nrf51.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\adc.o"
+".\objects\nrf_gpio.o"
+".\objects\nrf_delay.o"
+".\objects\simple_uart.o"
+".\objects\radio_config.o"
+--strict --scatter ".\Objects\Voltage_Collect.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Voltage_Collect.map" -o .\Objects\Voltage_Collect.axf

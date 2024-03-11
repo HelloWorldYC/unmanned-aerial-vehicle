@@ -1,0 +1,10 @@
+--cpu Cortex-M0
+".\objects\relayone.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\nrf_gpio.o"
+".\objects\nrf_delay.o"
+".\objects\radio_config.o"
+--strict --scatter ".\Objects\relayone.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\relayone.map" -o .\Objects\relayone.axf

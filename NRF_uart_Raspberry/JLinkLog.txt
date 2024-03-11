@@ -1,0 +1,27 @@
+
+T0D50 000:304 SEGGER J-Link V4.96d Log File (0001ms, 0263ms total)
+T0D50 000:304 DLL Compiled: Jan 29 2015 11:45:37 (0001ms, 0263ms total)
+T0D50 000:304 Logging started @ 2021-04-14 16:59 (0001ms, 0263ms total)
+T0D50 000:305 JLINK_SetWarnOutHandler(...) (0000ms, 0263ms total)
+T0D50 000:305 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20180904
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0264ms, 0527ms total)
+T0D50 000:569 JLINK_SetErrorOutHandler(...) (0000ms, 0527ms total)
+T0D50 000:569 JLINK_ExecCommand("ProjectFile = "F:\无人机项目\射频收集部分\NRF51822\project\NRF_uart_Raspberry\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0528ms total)
+T0D50 000:573 JLINK_ExecCommand("Device = nRF51822_xxAB", ...)Device "NRF51822_XXAB" selected.  returns 0x00 (0007ms, 0535ms total)
+T0D50 000:580 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0535ms total)
+T0D50 000:580 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0535ms total)
+T0D50 000:580 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0535ms total)
+T0D50 000:580 JLINK_GetFirmwareString(...) (0000ms, 0535ms total)
+T0D50 000:589 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0535ms total)
+T0D50 000:589 JLINK_GetCompileDateTime() (0000ms, 0535ms total)
+T0D50 000:596 JLINK_GetFirmwareString(...) (0000ms, 0535ms total)
+T0D50 000:599 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0535ms total)
+T0D50 000:610 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0002ms, 0537ms total)
+T0D50 000:612 JLINK_SetSpeed(20000) (0000ms, 0537ms total)
+T0D50 000:612 JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0x30 JTAG> (0005ms, 0542ms total)
+T0D50 003:576 JLINK_Close() (0000ms, 0542ms total)
+T0D50 003:576  (0000ms, 0542ms total)
+T0D50 003:576 Closed (0000ms, 0542ms total)

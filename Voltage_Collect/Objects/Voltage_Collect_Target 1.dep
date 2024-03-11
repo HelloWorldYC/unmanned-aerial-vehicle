@@ -1,0 +1,139 @@
+Dependencies for Project 'Voltage_Collect', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Voltage_Collect.c)(0x6076DDF5)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\voltage_collect.o --omf_browse .\objects\voltage_collect.crf --depend .\objects\voltage_collect.d)
+I (.\project_nrf51\Basic\startup\project_nrf51822.c)(0x5CBA7638)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (.\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5E)
+I (.\project_nrf51\Peripherals\boards\pca10001.h)(0x60756FBF)
+I (.\project_nrf51\Basic\Include_H\usbjtag.H)(0x527A46A8)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+I (.\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (.\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (.\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)
+I (.\project_nrf51\Peripherals\boards\pca1000x.h)(0x5CD04D84)
+I (.\ADC\ADC.h)(0x5CECD8F6)
+F (.\project_nrf51\Basic\startup\project_nrf51822.c)(0x5CBA7638)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\project_nrf51822.o --omf_browse .\objects\project_nrf51822.crf --depend .\objects\project_nrf51822.d)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (.\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5E)
+I (.\project_nrf51\Peripherals\boards\pca10001.h)(0x60756FBF)
+I (.\project_nrf51\Basic\Include_H\usbjtag.H)(0x527A46A8)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+I (.\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (.\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (.\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)
+F (.\project_nrf51\Basic\startup\system_nrf51.c)(0x527729A4)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\system_nrf51.o --omf_browse .\objects\system_nrf51.crf --depend .\objects\system_nrf51.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+F (.\project_nrf51\Basic\startup\arm_startup_nrf51.s)(0x529DBA1E)(--cpu Cortex-M0 -g --apcs=interwork -I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "NRF51 SETA 1"--list .\listings\arm_startup_nrf51.lst --xref -o .\objects\arm_startup_nrf51.o --depend .\objects\arm_startup_nrf51.d)
+F (.\ADC\ADC.c)(0x6073F99B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (.\project_nrf51\Basic\startup\project_nrf51822.c)(0x5CBA7638)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (.\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5E)
+I (.\project_nrf51\Peripherals\boards\pca10001.h)(0x60756FBF)
+I (.\project_nrf51\Basic\Include_H\usbjtag.H)(0x527A46A8)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+I (.\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (.\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (.\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)
+I (ADC\ADC.h)(0x5CECD8F6)
+F (.\project_nrf51\Basic\Include_C\nrf_gpio.c)(0x529F2C30)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\nrf_gpio.o --omf_browse .\objects\nrf_gpio.crf --depend .\objects\nrf_gpio.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+F (.\project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c)(0x529ECCBA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\nrf_delay.o --omf_browse .\objects\nrf_delay.crf --depend .\objects\nrf_delay.d)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.h)(0x5243EB66)
+F (.\project_nrf51\Basic\Include_C\simple_uart\simple_uart.c)(0x60756FD3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\simple_uart.o --omf_browse .\objects\simple_uart.crf --depend .\objects\simple_uart.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (.\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+F (.\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c)(0x6076A086)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals -I.\ADC -I.\project_nrf51\Peripherals\app_common -I.\project_nrf51\Peripherals\ble\ble_services -I.\project_nrf51\Peripherals\ble\rpc -I.\project_nrf51\Peripherals\ble\softdevice -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\esb -I.\project_nrf51\Peripherals\ext_sensors -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\gzll -I.\project_nrf51\Peripherals\gzp -I.\project_nrf51\Peripherals\key_scan -I.\project_nrf51\Peripherals\radio_config -I.\project_nrf51\Basic\Include_C\nrf_radio-I F:\无人机项目\射频收集部分\NRF51822\project\Voltage_Collect\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\radio_config.o --omf_browse .\objects\radio_config.crf --depend .\objects\radio_config.d)
+I (project_nrf51\Basic\Include_C\nrf_radio\radio_config.h)(0x529E9690)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)

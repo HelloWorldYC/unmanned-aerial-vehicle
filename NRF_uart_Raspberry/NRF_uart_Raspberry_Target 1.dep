@@ -1,0 +1,73 @@
+Dependencies for Project 'NRF_uart_Raspberry', Target 'Target 1': (DO NOT MODIFY !)
+F (.\project_nrf51\Basic\startup\arm_startup_nrf51.s)(0x529DBA1E)(--cpu Cortex-M0 -g --apcs=interwork -I F:\毕业设计及论文\毕业设计源码\NRF_uart_Raspberry\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "NRF51 SETA 1"--list .\arm_startup_nrf51.lst --xref -o .\arm_startup_nrf51.o --depend .\arm_startup_nrf51.d)
+F (.\project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c)(0x5E15E124)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\gcc -I.\Include -I.\project_nrf51\Peripherals\boards-I F:\毕业设计及论文\毕业设计源码\NRF_uart_Raspberry\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\nrf_delay.o --omf_browse .\nrf_delay.crf --depend .\nrf_delay.d)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5CFB7918)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.h)(0x5243EB66)
+F (.\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c)(0x6076A1C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\gcc -I.\Include -I.\project_nrf51\Peripherals\boards-I F:\毕业设计及论文\毕业设计源码\NRF_uart_Raspberry\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\radio_config.o --omf_browse .\radio_config.crf --depend .\radio_config.d)
+I (project_nrf51\Basic\Include_C\nrf_radio\radio_config.h)(0x529E9690)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+F (.\project_nrf51\Basic\Include_C\nrf_gpio.c)(0x529F2C30)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\gcc -I.\Include -I.\project_nrf51\Peripherals\boards-I F:\毕业设计及论文\毕业设计源码\NRF_uart_Raspberry\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\nrf_gpio.o --omf_browse .\nrf_gpio.crf --depend .\nrf_gpio.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5CFB7918)
+F (.\project_nrf51\Basic\Include_C\simple_uart\simple_uart.c)(0x60025668)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\gcc -I.\Include -I.\project_nrf51\Peripherals\boards-I F:\毕业设计及论文\毕业设计源码\NRF_uart_Raspberry\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\simple_uart.o --omf_browse .\simple_uart.crf --depend .\simple_uart.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5CFB7918)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (.\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+F (.\NRF_uart_Raspberry.c)(0x60A5DDA4)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\gcc -I.\Include -I.\project_nrf51\Peripherals\boards-I F:\毕业设计及论文\毕业设计源码\NRF_uart_Raspberry\RTE-I E:\keil\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\nrf_uart_raspberry.o --omf_browse .\nrf_uart_raspberry.crf --depend .\nrf_uart_raspberry.d)
+I (.\project_nrf51\Basic\startup\project_nrf51822.c)(0x5C470FFC)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A4)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5CFB7918)
+I (.\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5E)
+I (.\project_nrf51\Peripherals\boards\pca10001.h)(0x60768DD6)
+I (.\project_nrf51\Basic\Include_H\usbjtag.H)(0x527A46A8)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D6)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3756)
+I (.\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (.\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (.\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)

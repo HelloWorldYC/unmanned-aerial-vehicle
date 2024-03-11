@@ -1,0 +1,6 @@
+--create .\Objects\txone.lib
+.\objects\txone.o
+.\objects\arm_startup_nrf51.o
+.\objects\nrf_gpio.o
+.\objects\project_nrf51822.o
+.\objects\system_nrf51.o

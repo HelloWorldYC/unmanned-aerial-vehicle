@@ -1,0 +1,45 @@
+Dependencies for Project 'rxone', Target 'Target 1': (DO NOT MODIFY !)
+F (.\rxone.c)(0x5CB99E55)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\radio_config-I F:\Project\nrfone\RTE-I E:\KEIL\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\rxone.o --omf_browse .\objects\rxone.crf --depend .\objects\rxone.d)
+I (.\project_nrf51\Basic\startup\project_nrf51822.c)(0x5C470FFB)
+I (E:\KEIL\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (E:\KEIL\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\KEIL\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (.\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5D)
+I (.\project_nrf51\Peripherals\boards\pca10001.h)(0x5243EB68)
+I (.\project_nrf51\Basic\Include_H\usbjtag.H)(0x527A46A7)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (.\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (.\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (.\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (.\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (.\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)
+F (.\project_nrf51\Basic\startup\arm_startup_nrf51.s)(0x529DBA1C)(--cpu Cortex-M0 -g --apcs=interwork -I F:\Project\nrfone\RTE-I E:\KEIL\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\KEIL\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "NRF51 SETA 1"--list .\listings\arm_startup_nrf51.lst --xref -o .\objects\arm_startup_nrf51.o --depend .\objects\arm_startup_nrf51.d)
+F (.\project_nrf51\Basic\Include_C\nrf_gpio.c)(0x529F2C2F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\radio_config-I F:\Project\nrfone\RTE-I E:\KEIL\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\nrf_gpio.o --omf_browse .\objects\nrf_gpio.crf --depend .\objects\nrf_gpio.d)
+I (E:\KEIL\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (.\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (.\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+F (.\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c)(0x5C921E5B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I.\project_nrf51\Basic\Include_C -I.\project_nrf51\Basic\Include_H -I.\project_nrf51\Basic\startup -I.\project_nrf51\Peripherals\boards -I.\project_nrf51\Peripherals\gcc -I.\project_nrf51\Peripherals\radio_config-I F:\Project\nrfone\RTE-I E:\KEIL\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I E:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51-o .\objects\radio_config.o --omf_browse .\objects\radio_config.crf --depend .\objects\radio_config.d)
+I (project_nrf51\Basic\Include_C\nrf_radio\radio_config.h)(0x529E968E)
+I (E:\KEIL\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (.\project_nrf51\Peripherals\gcc\core_cm0.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmInstr.h)(0x5243EB66)
+I (.\project_nrf51\Peripherals\gcc\core_cmFunc.h)(0x5243EB66)
+I (.\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)

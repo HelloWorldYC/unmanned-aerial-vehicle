@@ -1,0 +1,8 @@
+prefix=/home/myc/offboard_ws/devel
+
+Name: offboard
+Description: Description of offboard
+Version: 0.0.0
+Cflags: -I/home/myc/offboard_ws/devel/include
+Libs: -L/home/myc/offboard_ws/devel/lib 
+Requires: message_runtime
